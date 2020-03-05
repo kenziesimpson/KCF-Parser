@@ -1,0 +1,11 @@
+- Use openeyes toolkit to process parsed molecules, while keeping new molecule
+    objects linked to the kegg atom types by an object
+
+- Use #up and #down tags in the KCF file to attach stereochmistry information
+    to bond objects using their OETK
+
+- Use OETK to calculate atom stereochmistry information from bond
+    stereochmistry information
+
+- Remake KCF files by backtracking using the original parsed array, adding
+    stereocenter tags to necessary molecule
